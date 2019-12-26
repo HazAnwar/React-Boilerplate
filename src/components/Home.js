@@ -19,9 +19,9 @@ export class Home extends Component {
 
   render() {
     return (
-      <div className="mt-4">
+      <div className="mt-5">
         <h4>{this.state.message}</h4>
-        <button className="mt-2" onClick={this.updateText}>
+        <button className="mt-4" onClick={this.updateText}>
           CLICK ME
         </button>
       </div>
