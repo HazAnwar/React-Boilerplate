@@ -16,4 +16,4 @@ Once you have done this, you can get it started by running
 
 This will run the app in the development mode (with hot reloading).
 
-You can then view it at [http://localhost:3000](http://localhost:3000) to view it in the browser.
+You can then view it at [http://localhost:3000](http://localhost:3000) in the browser.
