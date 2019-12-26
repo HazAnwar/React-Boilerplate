@@ -1,0 +1,12 @@
+.app {
+  text-align: center;
+  button {
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    border: 0.1rem solid green;
+    &:hover {
+      background-color: green;
+      color: white;
+    }
+  }
+}
