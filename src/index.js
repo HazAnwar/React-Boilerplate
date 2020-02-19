@@ -4,7 +4,6 @@ import "./index.css";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 import "bootstrap/dist/css/bootstrap.css";
-import "shards-ui/dist/css/shards.min.css";
 
 ReactDOM.render(<App />, document.getElementById("root"));
 
