@@ -8,14 +8,20 @@
     "react",
     "prettier"
   ],
-  "env": {
-    "browser": true
-  },
   "parserOptions": {
+    "ecmaVersion": 7,
     "sourceType": "module",
-    "ecmaVersion": 2015,
     "ecmaFeatures": {
       "jsx": true
+    }
+  },
+  "env": {
+    "browser": true,
+    "jest": true
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
     }
   }
 }
