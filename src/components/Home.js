@@ -4,7 +4,7 @@ export class Home extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      message: "Click on the button"
+      message: "Click on the button",
     };
     this.updateText = this.updateText.bind(this);
   }
@@ -12,7 +12,7 @@ export class Home extends Component {
   updateText() {
     const thisContext = this;
     this.setState({ message: "Thanks for clicking the button" });
-    setTimeout(function() {
+    setTimeout(function () {
       thisContext.setState({ message: "Click on the button" });
     }, 3000);
   }

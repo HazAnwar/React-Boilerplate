@@ -8,12 +8,16 @@ Additionally, react-router has been added in for a more component driven impleme
 
 In order to get started, you must install all the dependencies locally by running
 
-#### `npm install`
+#### `yarn install`
 
 Once you have done this, you can get it started by running
 
-#### `npm start`
+#### `yarn start`
 
 This will run the app in the development mode (with hot reloading).
 
 You can then view it at [http://localhost:3000](http://localhost:3000) in the browser.
+
+#### `yarn build`
+
+This will create the static files needed in order to host the web app online
